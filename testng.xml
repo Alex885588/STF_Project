@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="TestForSearching">
+            <classes>
+                <class name="TestForSearchFunctionality">
+                    <methods>
+                        <include name="validCaseOfSearching"/>
+                    </methods>
+                </class>
+            </classes>
+    </test>
+    <test name="TestForSubmissionPage">
+            <classes>
+                <class name="TestForSubmissionPage">
+                    <methods>
+                        <include name="validCaseOfFields"/>
+                    </methods>
+                </class>
+            </classes>
+    </test>
+    <test name="TestForLoans">
+            <classes>
+                <class name="TestLoansPage">
+                    <methods>
+                        <include name="testForThirdLoan"/>
+                    </methods>
+                </class>
+            </classes>
+    </test>
+</suite>
